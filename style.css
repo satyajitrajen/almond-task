@@ -1,0 +1,467 @@
+ * {
+      margin: 0;
+    }
+    body {
+      background-color: #f7f7f7;
+    }
+    header {
+      background-color: #d4d4d4;
+     
+      border-radius: 0px 0px 30% 30%;
+     margin: 20px;
+    }
+    nav {
+      height: 80px;
+      display: flex;
+      font-size: 20px;
+      width: 100%;
+    }
+    nav img {
+      height: 100px;
+      padding: 20px;
+      margin-left: 90px;
+    }
+    nav ul {
+      margin-left: 80px;
+      padding: 50px;
+      align-items: right;
+    }
+    nav ul li {
+      list-style: none;
+      display: inline;
+      padding: 20px;
+    }
+    nav a {
+      border: solid transparent 2px;
+      text-decoration: none;
+      padding: 10px 15px;
+      color: black;
+    }
+    nav ul a:hover {
+      border: solid gray 2px;
+      border-radius: 10px;
+    }
+    .big{
+	    font-size: 50px;
+	    margin-bottom: 30px;
+	   
+    }
+    .partners {
+      background-color: #f7f7f7;
+      height: 800px;
+      opacity: 0.2;
+    }
+    .hamburger{
+	    display: none;
+    }
+    .head {
+      margin: 90px;
+      text-align: center;
+      padding-bottom: 100px;
+    }
+    .head h3 {
+      font-size: 30px;
+      color: white;
+    }
+    .head p {
+      padding: 10px;
+      margin: -10px;
+      font-size: 20px;
+    }
+    .head h1{
+	    padding-top: 80px;
+    }
+    .head img {
+      margin-top: 10px;
+      height: 300px;
+    }
+    .head .buttons {
+      margin-top: 50px;
+    }
+    .head a {
+      padding: 15px 30px;
+      text-decoration: none;
+      background-color: black;
+      border-radius: 20px;
+      margin-left: 30px;
+
+      color: white;
+    }
+    .our-services {
+      padding: 30px;
+    }
+    .our-services h3 {
+      padding-top: 50px;
+
+      font-size: 30px;
+    }
+    .center {
+      padding-left: 13%;
+      padding-right: 10%;
+    }
+    .products img {
+      height: 100px;
+      padding: 30px;
+      margin-left: 50px;
+    }
+    .products h3 {
+      font-size: 30px;
+    }
+    p {
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 70px;
+      margin-top: 50px;
+    }
+    .service img{
+      margin-left: 40%;
+    }
+    .service-card {
+      width: 350px;
+      background-color: #05386b;
+      color: white;
+      border-radius: 10px 55px;
+      margin: 30px;
+    }
+    .service-card h3 {
+      padding: 30px 30px 30px 30px;
+      font-size: 25px;
+      text-align: center;
+    }
+    .service-card p {
+      padding: 10px 30px 30px 30px;
+      text-align: center;
+    }
+    footer {
+      background-color: white;
+      color: black;
+      padding: 30px;
+      border-radius: 50% 50% 0px 0px;
+    }
+    .half {
+      width: 100%;
+      display: flex;
+    }
+    .footercard {
+      padding: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
+      width: 25%;
+    }
+    .footercard1 {
+      padding: 10px;
+      margin-left: 50px;
+      margin-right: 50px;
+      width: 25%;
+    }
+    footer p,
+    h3 {
+      padding: 10px;
+      text-align: center;
+    }
+    .clients{
+	    margin: 50px;
+    }
+    .clients .card{
+	    height: 300px;
+	    width: 100%;
+	    background-color: white;
+	   display: flex;  
+	   margin-top: 40px;  
+	   border-radius: 10px;
+    }
+    .content h3{
+	    text-align: left;
+	    padding: 30px 50px ;
+    }
+    .content p{
+	    text-align: left;
+	    padding: 10px 50px;
+    }
+    .clients .card:hover{
+           background-color: black;
+	   color: white;
+    }
+    .card .content{
+	    width: 50%;
+	    height: 100%;
+	    
+    }
+    .card .image {
+	   width: 50%;
+	   background-image: url(zuber.jpg);
+    }
+    
+    .footercard img {
+      margin-top: 20px;
+    }
+    .about{
+	    margin: 10px 15% 10% 15%;
+	   
+	  
+    }
+    .about h3{
+	    font-size: 30px;
+    }
+    .about p{
+	    padding: 30px;
+	    font-size: 20px;
+    }
+    .foot {
+      padding: 10px;
+    }
+    .reviews {
+      margin: 30px;
+    }
+    .reviews h3 {
+      padding-top: 30px;
+      text-align: center;
+      font-size: 30px;
+    }
+    .reviewcard {
+      margin: 10px;
+      height: 200px;
+      width: 600px;
+      border-radius: 20px 10px;
+      background:#ffda30;
+;
+    }
+    .reviewcard h3 {
+      font-size: 15px;
+      padding: 5px;
+      padding-right: 50px;
+      text-align: right;
+      
+    }
+   .reviewcard h2 {
+      text-align: right;
+      
+      padding-right: 50px;
+    }
+    .reviewcard p{
+	    padding: 50px;
+	    padding-bottom: 20px;
+    }
+    .contact{
+	    display: flex;
+    }
+    form{
+	    width: 30%;
+	    
+	    display: grid;
+	    flex-direction: column;
+	    padding: 40px;
+	    margin-left: 10%;
+	    margin-bottom: 100px;
+	    background-color: white;
+	    border-radius: 10px;
+    }
+    form input,textarea{
+	    width: 90%;
+	    padding: 10px 10px;
+	    margin: 5px;
+	    font-size: 16px;
+	    border-radius: 5px;
+	    border: none;
+	    background-color: #f7f7f7;
+    }
+     button{
+	 margin-left: 65%; 
+	 width: 100px;
+	 margin-top: 10px;
+          padding: 10px 20px;
+	  border-radius: 5px;
+	  font-size: 16px;
+	    border: none;
+	    color: white;
+	    background-color:black;
+	    
+    }
+    .contactdetails{
+	    width: 50%;
+	    margin-right: 10%;
+	    margin-left: 100px;
+	    padding-top: 50px;
+    }
+    .contactdetails h2{
+	    text-align: center;
+	    font-size: 40px;
+	    padding-bottom: 50px;
+    }
+    .contactdetails p{
+	    padding: 10px;
+	    text-align: left;
+	    margin-left: 30%;
+    }
+    .service{
+	    margin-left: 2%;
+    }
+    .service h2{
+            text-align: center;
+	    font-size: 30px;
+    }
+    .service p{
+       padding-top: 20px;
+    }
+    .casestudy{
+	    margin: 5% 5% 5% 5%;
+      
+	   
+    }
+    .case{
+	    height: 300px;
+	   background: #ffc40c;
+    }
+    .case h3{
+	    text-align: left;
+	    padding-left: 50px;
+	    font-size: 40px;
+      margin-left: 30px;
+	    
+    }
+    .case p{
+	    margin-right: 60%;
+	    padding-left: 10%;
+	    text-align: left;
+    }
+    .casestudy h3{
+	    text-align: left;
+	    padding: 10px;
+	    font-size:25px ;
+	    margin-left: 10px;
+	    
+	    
+    }
+    @media only screen and (max-width: 600px) {
+  
+  ul{
+	  display: none;
+  }
+  nav img{
+	  margin-left: 50%;
+  }
+ .hamburger{
+	 display: block;
+         height: 30px;
+	 margin-left: 31%;
+	 -webkit-transform: scaleX(-1);
+         transform: scaleX(-1);
+	 
+    }
+  .container{
+	  width: 100%;
+	  display: flex;
+	  flex-direction:column;
+	  align-content: center;
+	  align-items: center;
+	   margin-left: 15px;
+  }
+  .half{
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  align-content: center;
+  }
+  .reviewcard{
+	  width: 350px;
+    background-image: url(review-background.jpg);
+	  margin-left: 10px;
+  }
+  .center{
+	  padding-left: 10px;
+	  padding-right: 10px;
+  }
+  .our-services{
+	  padding: 10px;
+	  text-align: center;
+  }
+  .head{
+	  font-size: 16px;
+	  padding-bottom: 20px;
+  }
+  .service-card{
+	  margin: 10px;
+	padding-left: 20px;
+  }
+  
+  header{
+	  border-radius: 20px 10%;
+	  margin: 0px;
+	  margin-left: 15px;
+	  width: 100%;
+  }
+  .buttons{
+	  display: flex;
+	  margin-left: 0px;
+  }
+  .head p{
+	  display: none;
+	  font-size: smaller;
+  }
+  .head a{
+	  margin-left:-10px;
+	  margin-right: 30px;
+	  font-size: 15px;
+	  padding: 10px;
+  }
+  .head img{
+	  display: none;
+	  height: 50px;
+  }
+  .products img{
+	  margin-left: 10px;
+  }
+  .reviewcard p{
+	  padding: 20px;
+  }
+  .footercard1{
+	  display: flex;
+	  width: 100%;
+	 
+  }
+  footer{
+	  margin-left: 0px;
+	  margin-right: -35px;
+	  border-radius: 30% 30% 0px 0px;
+  }
+  footer .container{
+	  margin: 10px;
+  }
+  .footercard{
+	  width: 100%;
+	  margin: 10px;
+	  margin-right: 50px;
+	  
+  }
+  .reviewcard h2,h3{
+	  padding-right: 20px;
+  }
+  .footercard a{
+	margin-left: 40px;
+  }
+  .clients{
+	  margin: 10px;
+	  align-items: center;
+	  align-content: center;
+  }
+  .clients .card{
+	  height: 100%;
+
+	 align-items: center;
+	 align-content: center;
+	  display: flex;
+	  flex-direction: column;
+  }
+  .content h3{
+      font-size: 20px;
+      padding: 10px;
+  }
+  .card .content p{
+	  font-size: small;
+	  padding: 10px;
+  }
+  
+}
